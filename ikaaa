@@ -1,0 +1,15 @@
+# cantika
+# nim : 2501697
+
+# Input suhu dalam Celcius
+celcius = 27
+
+# Konversi
+reamur = 4/5 * celcius
+fahrenheit = (9/5 * celcius) + 32
+kelvin = celcius + 273
+
+# Output
+print(f"Suhu {celcius} derajat celcius sama dengan {reamur} derajat Reamur")
+print(f"{fahrenheit} derajat Fahrenheit")
+print(f"{kelvin} Kelvin")
